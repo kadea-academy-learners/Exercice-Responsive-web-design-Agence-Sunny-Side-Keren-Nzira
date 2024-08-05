@@ -1,3 +1,3 @@
 # Exercice-Responsive-web-design-Agence-Sunny-Side-Keren-Nzira
 
-je dois commencer ça dans pas longtemps
+Ce sera peut etre difficile mais je sais que je pourais y arriver .
