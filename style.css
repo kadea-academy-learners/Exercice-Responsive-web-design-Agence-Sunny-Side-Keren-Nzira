@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: "Fraunces","Barlow",sans-serif;
+    color:black;
+ }
+
+ header {
+    background-image: url('desktop/image-header.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    padding: 20px 0;
+    width: 100%;
+    height: 100vw;
+    top: 0;
+    z-index: 1000;
+}
+nav a{
+    color:white;
+    font-weight:lighter
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.h
+p {
+   font-family: "Fraunces",sans-serif; 
+}
+ .menu{
+    padding-left:20px;
+    padding-right:20px;
+}
+.text-small {
+    font-size: small;
+}
+.text-center{
+    text-align: center;
+}
+.h1 {
+    font-size: 3rem;
+  
+}
+.list-style-none{
+    list-style: none;
+}
+.flex{
+    display: flex;
+}
+.flex-justify-space-between{
+    justify-content: space-between;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-align{
+    align-content: center;
+}
+.flex-column{
+    flex-direction: column;
+}
+.button{
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px; 
+    padding: 10px 10px; 
+    font-size: 14px;
+    font-family:"Fraunces";
+    color: black; 
+}
+
+.logo_sunnyside{
+    font-weight: bold;
+    color:white;
+    font-size: large;
+}
+section h1{
+    text-align: center;
+    margin-top: 25%;
+    color: white;
+    letter-spacing: 5px;
+}
+.arrow{
+    margin-top :  50px ;
+    margin-left: 276px;
+}
+footer{
+    background-color: #90D4C5;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    gap: 30px;
+}
+footer div a{
+    color:#30554C;
+    font-weight:lighter
+}
+footer ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+
+
+
