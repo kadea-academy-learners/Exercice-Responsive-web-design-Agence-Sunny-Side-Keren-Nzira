@@ -8,6 +8,7 @@
 body {
     font-family: "Fraunces","Barlow",sans-serif;
     color:black;
+     
  }
 
  header {
@@ -16,6 +17,7 @@ body {
     background-repeat: no-repeat; 
     background-position: center;
     padding: 20px 0;
+    margin: auto;
     width: 100%;
     height: 100vw;
     top: 0;
@@ -30,7 +32,10 @@ nav ul {
     list-style: none;
     gap: 30px;
 }
-.h
+.padding-x-m{
+    padding-left:30px ;
+    padding-right: 30px;
+}
 p {
    font-family: "Fraunces",sans-serif; 
 }
@@ -88,9 +93,11 @@ section h1{
     color: white;
     letter-spacing: 5px;
 }
-.arrow{
-    margin-top :  50px ;
-    margin-left: 276px;
+.arrow_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 footer{
     background-color: #90D4C5;
@@ -111,6 +118,14 @@ footer ul {
     list-style: none;
     gap: 30px;
 }
+.div-img{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
 
 
 
